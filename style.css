@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  height: 300px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+body {
+  font-family: sans-serif;
+  color: black;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.hanok,
+.ocean view,
+.exotic,
+.urban,
+.nature,
+.jeju,
+.party,
+.active {
+  box-sizing: border-box;
+  width: auto;
+  padding: 40;
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+}
+
+h3 {
+  text-align: center;
+  color: black;
+}
+
+h4 {
+  text-align: center;
+  color: black;
+}
+
+h5 {
+  text-align: center;
+  color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  border-bottom: 3px solid #333;
+  font-weight: 600;
+}
+
+.navbar a {
+  color: #333;
+  padding: 30px;
+  margin-top: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: brown;
+  color: #fff;
+}
+
+img {
+  width: 300px; 
+  max-height: 200px;
+  margin: auto;
+}
+
+.footer {
+  height: 60;
+  margin-top: 50px;
+  text-align: center;
+  background: #333;
+  color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .navbar,
+  .container,
+  body {
+    flex-direction: column;
+    background-color: bisque;
+  }
+}
